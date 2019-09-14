@@ -20,8 +20,6 @@ I use a bash script be able to call the script as a cronjob from a Python virtua
 ```bash
 #!/bin/bash
 cd /absolute/path/to/root
-PATH=$PATH:/absolute/path/to/virtual/env/bin/
-export PATH
-python ./scraper.py
+/absolute/path/to/virtual/env/bin/python ./scraper.py
 ```
 Remember you're probably going to have to make the scripts executable with `chmod +x path/to/script`.
