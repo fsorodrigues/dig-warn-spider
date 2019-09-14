@@ -1,0 +1,12 @@
+venv
+__pycache__/
+*.pyc
+*.ipynb
+staticfiles
+db.sqlite3
+.env
+*.xlsx
+*.sh
+documentation/
+
+/jupyter
